@@ -1,0 +1,51 @@
+.create-container{
+    width: 100%;
+}
+.form-container{
+    width: 400px;
+    margin: 20px auto;
+}
+.form-container h1{
+    text-align: center;
+}
+
+.form-container form{
+    margin: 20px;
+    width: 100%;
+    padding: 20px;
+    background-color: rgb(9, 9, 46);
+    box-shadow: 5px 5px 5px rgba(0, 0, 0, 0.4);
+}
+.form-container form input{
+    display: block;
+    width: 100%;
+    padding: 6px;
+    border-radius: 2px;
+    outline: none;
+    border: none;
+    margin-bottom: 7px;
+    background-color: rgba(0, 0, 139, 0.425);
+    color: #fff;
+}
+.form-container form input::placeholder{
+    color: #fff;
+}
+.form-container button{
+    padding: 6px;
+    width: 100%;
+    background-color: rgb(135, 135, 207);
+    text-align: center;
+    border: none;
+    outline: none;
+    border-radius: 2px;
+}
+.form-container button{
+    transition-property: transform, background;
+    transition-timing-function: ease-in-out;
+    transition-duration: 0.8s;
+}
+
+.form-container button:hover{
+    transform: scale(0.9);
+    background: darkblue;
+}

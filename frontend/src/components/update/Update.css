@@ -1,0 +1,71 @@
+.update-container {
+  background-color: rgba(0, 0, 0, 0.85);
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  height: 100%;
+  display: grid;
+  place-content: center;
+}
+.update-container form {
+  margin: 50px auto;
+  padding: 10px;
+  width: 350px;
+  height: auto;
+  background-color: rgb(37, 37, 46);
+  border: 0.5px solid black;
+  border-radius: 5px;
+}
+.update-container form > * {
+}
+.update-container h3{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    color: white;
+    margin: 10px 0;
+    font-weight: 700;
+}
+.close-icon{
+    font-size: 2rem;
+}
+.update-container input{
+    display: block;
+    width: 100%;
+    padding: 5px;
+    outline: none;
+    border: 0.3px solid rgb(104, 99, 99);
+    background-color: transparent;
+    margin-bottom: 5px;
+    border-radius: 4px;
+    color: white;
+}
+.button{
+    display: flex;
+    align-items: center;
+    justify-content: flex-end;
+    gap: 5px;
+    margin-top: 5px;
+    padding-top: 5px;
+}
+.button >:nth-child(1){
+    cursor: pointer;
+    background-color: aquamarine;
+    padding: 5px;
+    border: none;
+    outline: none;
+    border-radius: 4px;
+    font-weight: 700;
+}
+.button >:nth-child(2){
+    background-color: transparent;
+    padding: 5px;
+    border: none;
+    color: white;
+    outline: none;
+    border-radius: 4px;
+    font-weight: 700;
+    cursor: pointer;
+}
